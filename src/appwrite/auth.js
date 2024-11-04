@@ -34,7 +34,7 @@ export class AuthService {
         } catch (error) {
             throw error;
         }
-    }
+    } 
 
     async getCurrentUser() {
         try {
